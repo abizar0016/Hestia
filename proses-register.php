@@ -9,7 +9,7 @@ if($kirim){
 $query="INSERT INTO signup VALUES
 ('','$nama','$email','$password','$level')";
 $hasil=mysqli_query($conn,$query);
-header('Location:form.php');
+header('Location:myweb-user.html');
 }else{
 echo "Registrasi User Gagal!";
 }
